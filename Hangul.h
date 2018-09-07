@@ -965,7 +965,7 @@ int GetChoseongSet(int Jungseong, int Jongseong)
 {
     if (!Jongseong) {
         static int Set[] = {
-            0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 3, 3, 1, 4, 4, 4, 4, 2, 1, 3, 0
+            0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 3, 3, 1, 2, 4, 4, 4, 2, 1, 3, 0
         };
         return Set[Jungseong];
     } else {
